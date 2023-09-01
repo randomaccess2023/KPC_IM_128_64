@@ -6,7 +6,7 @@ Folder '128' contains models (in folder 'models14') for 14-cluster set using 128
 
 Folder 'Figures' contains every figure used in the main manuscript and additional information section of the paper. Besides, some high resolution WSIs can also be found here.
 
-'MODULE' folder has been used to calculate internal validation indices like Xie-Beni index, Calinski-Harabasz index, C index, Dunn index, Hartigan index and Mclain-Rao index for both patch sizess(128x128 and 64x64). Check these two scripts: 'Internal_validation_128x128.ipynb' and 'Internal_validation_64x64.ipynb' to see index calculation.
+'MODULE' folder has been used to calculate internal validation indices like Xie-Beni index, Calinski-Harabasz index, C index, Dunn index, Hartigan index and Mclain-Rao index for both patch sizes (128x128 and 64x64). Check these two scripts: 'Internal_validation_128x128.ipynb' and 'Internal_validation_64x64.ipynb' to see index calculation.
 
 'internal_validation_indices_plot.ipynb' has the code for creating Figure 5 in the main manuscript.
 
