@@ -22,4 +22,4 @@ Folder 'Figures' contains every figure used in the main manuscript and additiona
 
 'histogram_colormap_WSI.ipynb' has the code to create Figure 10 of the main manuscript in the paper.
 
-filename_tif8_block2.txt' contains the addresses of 191 WSIs.
+'filename_tif8_block2.txt' contains the addresses of 191 WSIs.
