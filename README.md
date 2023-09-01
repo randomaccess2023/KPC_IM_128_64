@@ -10,7 +10,7 @@ Folder 'Figures' contains every figure used in the main manuscript and additiona
 
 'internal_validation_indices_plot.ipynb' has the code for creating Figure 5 in the main manuscript.
 
-'sequential_patch_creation_from_1_WSI.ipynb' stores the code for creating 18252 patches sequentially of size 128x128 from a randomly selected WSI with 5 stainings. We could not upload the dataset ('seq_patches_18252_from_1wsi.npy') in GitHub because it has a size of 4.49 GB. But, we have visualized the WSI that was used for sequential patch creation with 5 stainings. Additionally, we have shown a patch with from this dataset with 5 stainings. Same procudure can be repeated to create 64x64 patches with minor changes in the script but we didn't show that to avoid repetitiveness.
+'sequential_patch_creation_from_1_WSI.ipynb' stores the code for creating 18252 patches sequentially of size 128x128 from a randomly selected WSI with 5 stainings. We could not upload the dataset ('seq_patches_18252_from_1wsi.npy') in GitHub because it has a size of 4.49 GB. But, we have visualized the WSI that was used for sequential patch creation with 5 stainings. Additionally, we have shown a patch from this dataset with 5 stainings. Same procudure can be repeated to create 64x64 patches with minor changes in the script but we didn't show that to avoid repetitiveness.
 
 'IM_output_64x64_100_1.ipynb' and 'IM_output_of_unused_samples_during_training.ipynb' contain the code to generate Figure 4 and Figure 5, respectively of additional information section in the paper.
 
