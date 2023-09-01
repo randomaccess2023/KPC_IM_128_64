@@ -24,4 +24,4 @@ Folder 'Figures' contains every figure used in the main manuscript and additiona
 
 'filename_tif8_block2.txt' contains the addresses of 191 WSIs.
 
-By using 'random_patch_creation.ipynb' script, randomly patches can be created from 191 WSIs. Here, we have presented code for creating 128x128 patches but with minor changes, 64x64 patches can also be created. We have mentioned where to change in the script. Additionally, We have shown the WSIs in Figure 2 of the main manuscript in the paper here. 
+By using 'random_patch_creation.ipynb' script, randomly patches can be created from 191 WSIs. Here, we have presented code for creating 128x128 patches but with minor changes, 64x64 patches can also be created. We have mentioned where to change in the script to create 64x64 patches. Additionally, We have shown the WSIs in Figure 2 of the main manuscript in the paper also.
