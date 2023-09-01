@@ -20,6 +20,6 @@ Folder 'Figures' contains every figure used in the main manuscript and additiona
 
 'patch_visualization_128x128_64x64.ipynb' has the code to create Figure 1 of the main manuscript in the paper. In addition, we have shown first 20 samples of both datasets ('slice128_Block2_20K.npy' ---> contains 128x128 patches and 'slice64_Block2_20K.npy' ---> contains 64x64 patches) with 5 stainings because the size of 'slice128_Block2_20K.npy' (7.86 GB) and 'slice64_Block2_20K.npy' (1.97 GB) are not suitable to be uploaded in GitHub.
 
-'histogram_colormap_WSI.ipynb' has the code to create Figure 9 of the main manuscript in the paper.
+'histogram_colormap_WSI.ipynb' has the code to create Figure 10 of the main manuscript in the paper.
 
 filename_tif8_block2.txt' contains the addresses of 191 WSIs.
