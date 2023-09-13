@@ -30,7 +30,7 @@ This is the repository that has the code and figures for the paper titled _**"In
 
 - By using `random_patch_creation.ipynb` script, randomly patches can be created from 191 WSIs. Here, we have presented the code for creating __128x128__ patches but with minor changes, __64x64__ patches can also be created. We indicated where to change in the script to create __64x64__ patches.
 
-### You will observe some of the locations in different scipts of this repository that points to the placement of different types of files (either _dataset_ or something else):
+### You will observe some of the locations in different scipts of this repository that points to the placement of different types of files (either _dataset_ or something else) as shown below:
 
 >>>> - `/project/dsc-is/mahfujul-r/M/slice128_Block2.20K.ipynb`
 >>>> - `models14/model_en_202211280036_4000.ckpt`
