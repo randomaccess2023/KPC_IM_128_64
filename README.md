@@ -14,6 +14,7 @@ This is the repository that has the code and figures for the paper titled _**"In
 - `sequential_patch_creation_from_1_WSI.ipynb` stores the code for creating 18252 patches sequentially (without overlap) of size __128x128__ pixels from a randomly selected WSI with 5 stainings. We could not upload the dataset (`seq_patches_18252_from_1wsi.npy`) in GitHub because it has a size in Gigabytes. But, we have visualized the WSI that was used for sequential patch creation with 5 stainings. Additionally, we have shown a patch from this dataset with 5 stainings. A similar procedure can be followeded to create 64x64 patches with minor changes in the script but we did not do that in this research.
 
 - `IM_output_64x64_100_1.ipynb` and `IM_output_of_unused_samples_during_training.ipynb` possess the code to generate Figure 4 and Figure 5, respectively of the `Additional information` portion in the manuscript.
+![Figure 4. Information maximization output for the 14-cluster set (64x64)](https://github.com/randomaccess2023/KPC_IM_128_64/blob/main/Figures/Additional%20Information/Figure%204/IM_output_100_1_64x64.pdf)
 
 - `original_transformed_128x128.ipynb` has the code to visualize the original and transformed versions of a patch (__128x128__ pixels). Look over Figure 2 of the `Additional information` division in the paper.
 
