@@ -3,7 +3,7 @@
 This is the repository that has the code and figures for the paper titled _**"Information-maximization based clustering of histopathology images using deep learning"**_.
 
 > `128`, which is a folder contains models (in folder `models14`) for 14-cluster set using __128x128__ patches, script for training this particular model (`part1_kpc_cae_128_14.ipynb`), clustering output using this model (`part2_clustering.ipynb`) and umap plotting (`part3_umap.ipynb`) using latent features obtained from this model. Similarly, Folder `64` includes models (in folder `models14`) for 14-cluster set using __64x64__ patches, script for training this particular model (`part1_kpc_cae_64_14.ipynb`), clustering output using this model (`part2_clustering.ipynb`) and umap plotting (`part3_umap.ipynb`) using latent features attained from this model.
->> We have only shown these two models because they have been designated as the optimal cluster sets by internal validation metrics. By changing in one place, the scripts can be run for cluster sets using 8, 9, 10, 11, 12, 13, 15, 16, 17 and 18 as well. We have mentioned where to change in the training scipts (`part1_kpc_cae_128_14.ipynb` and `part1_kpc_cae_64_14.ipynb`). Check that out.
+>> We have only shown these two models because they have been designated as the optimal cluster sets by internal validation metrics. By changing in one place, the scripts can be run for cluster sets using 8, 9, 10, 11, 12, 13, 15, 16, 17 and 18 as well. We mentioned where to change in the training scipts (`part1_kpc_cae_128_14.ipynb` and `part1_kpc_cae_64_14.ipynb`). Check that out.
 
 - 'Figures' (another folder) has every figure used in the manuscript (including `Additional information` segment). Besides, some high resolution WSIs can also be found here.
 
@@ -26,4 +26,4 @@ This is the repository that has the code and figures for the paper titled _**"In
 
 #### `filename_tif8_block2.txt` contains the addresses of 191 WSIs.
 
-- By using `random_patch_creation.ipynb` script, randomly patches can be created from 191 WSIs. Here, we have presented the code for creating __128x128__ patches but with minor changes, __64x64__ patches can also be created. We have mentioned where to change in the script to create __64x64__ patches.
+- By using `random_patch_creation.ipynb` script, randomly patches can be created from 191 WSIs. Here, we have presented the code for creating __128x128__ patches but with minor changes, __64x64__ patches can also be created. We indicated where to change in the script to create __64x64__ patches.
