@@ -29,3 +29,45 @@ This is the repository that has the code and figures for the paper titled _**"In
 #### `filename_tif8_block2.txt` contains the addresses of 191 WSIs.
 
 - By using `random_patch_creation.ipynb` script, randomly patches can be created from 191 WSIs. Here, we have presented the code for creating __128x128__ patches but with minor changes, __64x64__ patches can also be created. We indicated where to change in the script to create __64x64__ patches.
+
+### You will observe the following locations in different scipts of this repository that points to the placement of different types of files (either _dataset_ or something else):
+
+>>>> `/project/dsc-is/mahfujul-r/M/slice128_Block2.20K.ipynb`
+>>>> `models14/model_en_202211280036_4000.ckpt`
+>>>> `models14/model_cl_202211280036_4000.ckpt`
+>>>> `models14/model_de_202211280036_4000.ckpt`
+>>>> `project/dsc-is/mahfujul-r/M/128/14/HHH14 & C14 & D14.csv`
+>>>> `/project/dsc-is/mahfujul-r/M/slice64_Block2.20K.ipynb`
+>>>> `models14/model_encoder_3000`
+>>>> `models14/model_classifier_3000`
+>>>> `models14/model_decoder_3000`
+>>>> `project/dsc-is/mahfujul-r/M/64/14/HHH14 & C14 & D14.csv`
+>>>> `./64/models14/model_encoder_3000`
+>>>> `./64/models14/model_classifier_3000`
+>>>> `./64/models14/model_decoder_3000`
+>>>> `./128/models14/model_en_202211280036_4000.ckpt`
+>>>> `./128/models14/model_cl_202211280036_4000.ckpt`
+>>>> `./128/models14/model_de_202211280036_4000.ckpt`
+>>>> `project/dsc-is/mahfujul-r/M/128/08/HHH08 & C08 & D08.csv`
+>>>> `project/dsc-is/mahfujul-r/M/128/09/HHH09 & C09 & D09.csv`
+>>>> `project/dsc-is/mahfujul-r/M/128/10/HHH10 & C10 & D10.csv`
+>>>> `project/dsc-is/mahfujul-r/M/128/11/HHH11 & C11 & D11.csv`
+>>>> `project/dsc-is/mahfujul-r/M/128/12/HHH12 & C12 & D12.csv`
+>>>> `project/dsc-is/mahfujul-r/M/128/13/HHH13 & C13 & D13.csv`
+>>>> `project/dsc-is/mahfujul-r/M/128/15/HHH15 & C15 & D15.csv`
+>>>> `project/dsc-is/mahfujul-r/M/128/16/HHH16 & C16 & D16.csv`
+>>>> `project/dsc-is/mahfujul-r/M/128/17/HHH17 & C17 & D17.csv`
+>>>> `project/dsc-is/mahfujul-r/M/128/18/HHH18 & C18 & D18.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/08/HHH08 & C08 & D08.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/09/HHH09 & C09 & D09.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/10/HHH10 & C10 & D10.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/11/HHH11 & C11 & D11.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/12/HHH12 & C12 & D12.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/13/HHH13 & C13 & D13.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/15/HHH15 & C15 & D15.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/16/HHH16 & C16 & D16.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/17/HHH17 & C17 & D17.csv`
+>>>> `project/dsc-is/mahfujul-r/M/64/18/HHH18 & C18 & D18.csv`
+>>>> `./64/models14/hist_modelS_3000`
+
+### You have to change these locations according to your _working environment_.
