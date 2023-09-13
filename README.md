@@ -11,7 +11,9 @@ This is the repository that has the code and figures for the paper titled _**"In
 
 - `internal_validation_indices_plot.ipynb` has the code for creating Figure 5 as shown in the manuscript.
 
-- `sequential_patch_creation_from_1_WSI.ipynb` stores the code for creating 18252 patches sequentially (without overlap) of size __128x128__ pixels from a randomly selected WSI with 5 stainings. We could not upload the dataset (`seq_patches_18252_from_1wsi.npy`) in GitHub because it has a size in Gigabytes. But, we have visualized the WSI that was used for sequential patch creation with 5 stainings. Additionally, we have shown a patch from this dataset with 5 stainings. A similar procedure can be followeded to create 64x64 patches with minor changes in the script but we did not do that in this research.
+> `sequential_patch_creation_from_1_WSI.ipynb` stores the code for creating 18252 patches sequentially (without overlap) of size __128x128__ pixels from a randomly selected WSI with 5 stainings. We could not upload the dataset (`seq_patches_18252_from_1wsi.npy`) in GitHub because it has a size in Gigabytes. But, we have visualized the WSI that was used for sequential patch creation with 5 stainings. Additionally, we have shown a patch from this dataset with 5 stainings. A similar procedure can be followeded to create 64x64 patches with minor changes in the script but we did not do that in this research.
+>> In `sequential_patch_creation_from_1wsi.ipynb`, you will notice `HE_2`, `HE_3` and `HE_4` besides `HE_1`. These `HE` series were taken for alignment and registration of images. The original tissue was sliced into a series of thin slices. Then, they were stained with `HE` and other staining methods alternately, e.g., __HE-MT-HE-CD31-HE-Ki67-HE-CK...__
+>>> So, all stained images should be sandwiched by two contacts of `HE` images.  
 
 - `IM_output_64x64_100_1.ipynb` and `IM_output_of_unused_samples_during_training.ipynb` possess the code to generate Figure 4 and Figure 5, respectively of the `Additional information` portion in the manuscript.
 
