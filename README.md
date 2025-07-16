@@ -71,3 +71,7 @@ This is the repository that has the code and figures for the paper titled _**"In
 >>>> - `./64/models14/hist_modelS_3000`
 
 ### You have to change these locations according to your _working environment_.
+
+## This repository uses `MIT License`. Read the terms and conditions from _LICENSE_ text file.
+
+# Read the paper from here: [KPC_IM](https://journals.plos.org/digitalhealth/article?id=10.1371/journal.pdig.0000391)
