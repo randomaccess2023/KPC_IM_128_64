@@ -1,6 +1,6 @@
 # Information Maximization-Based Clustering of Histopathology Images Using Deep Learning
 
-This is the repository that has the code and figures for the paper titled _**"Information Maximization-Based Clustering of Histopathology Images Using Deep Learning"**_.
+This is the repository that has the code and figures for the paper titled _**Information Maximization-Based Clustering of Histopathology Images Using Deep Learning**_.
 
 > `128`, which is a folder contains models (in folder `models14`) for 14-cluster set using __128x128__ pixels patches, script for training this particular model (`part1_kpc_cae_128_14.ipynb`), clustering output using this model (`part2_clustering.ipynb`) and umap plotting (`part3_umap.ipynb`) using upper-dimensional latent features obtained from this model. Similarly, Folder `64` includes models (in folder `models14`) for 14-cluster set using __64x64__ pixels patches, script for training this particular model (`part1_kpc_cae_64_14.ipynb`), clustering output using this model (`part2_clustering.ipynb`) and umap plotting (`part3_umap.ipynb`) using upper-dimensional latent features attained from this model.
 >> We have only shown these two models because they have been designated as the optimal cluster sets by internal validation metrics. By changing in one place, the scripts can be run for cluster sets using 8, 9, 10, 11, 12, 13, 15, 16, 17 and 18 as well. We mentioned where to change in the training scipts (`part1_kpc_cae_128_14.ipynb` and `part1_kpc_cae_64_14.ipynb`). Check that out.
